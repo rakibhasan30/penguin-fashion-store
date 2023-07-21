@@ -13,7 +13,7 @@
     <title>Penguin Fashion Store</title>
   </head>
   <body class="font-['Roboto']">
-    <header class="bg-[#FFFBF0] md:pb-36">
+    <header class="bg-[#FFFBF0] pb-6 md:pb-36">
       <nav>
         <div
           class="md:px-32 md:py-8 pl-4 pt-6 flex items-center justify-between mb-8"
@@ -50,7 +50,7 @@
         </div>
       </nav>
       <div class="md:flex md:justify-between md:items-center md:px-32">
-        <div class="pl-4 mt-14">
+        <div class="px-4 mt-14">
           <h1 class="text-6xl uppercase font-extrabold text-[363958]">
             <span class="text-[#FABE4C]">Be the Penguins</span><br />of Winter
           </h1>
@@ -59,22 +59,40 @@
             industry.
           </p>
           <button
-            class="mt-4 px-8 py-3 text-blue-100 rounded bg-gradient-to-r from-lime-600 to-[#A4BC46] hover:from-blue-600 hover:to-blue-800 inline-flex items-center"
+            class="mt-4 px-8 py-3 text-white rounded-2xl bg-gradient-to-r from-lime-600 to-[#A4BC46] hover:from-blue-600 hover:to-blue-800 inline-flex items-center"
           >
             <svg
-              class="fill-current w-4 h-4 mr-2"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6 mr-3"
             >
-              <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+              />
             </svg>
-            <span>Download</span>
+
+            <span>BUY NOW</span>
           </button>
         </div>
-        <div>
-          <img src="./images/model.png" alt="" />
+        <div class="mt-12 md:mt-0 inline-flex items-center justify-center">
+          <img class="w-4/6 md:w-auto" src="./images/model.png" alt="" />
         </div>
       </div>
     </header>
+    <div class="my-12 md:px-32">
+      <h1 class="my-12 text-4xl font-extrabold uppercase">W0Man Jacket</h1>
+      <div>
+        <div class="w-3/4 h-3/4 md:w-1/4 drop-shadow-xl">
+          <div class="bg-[#F1F1F1]">
+            <img src="./images/jacket-1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
